@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="20" android:targetSdkVersion="26" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+	<uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+	<uses-permission android:name="android.permission.BATTERY_STATS" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+	<uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+	<uses-permission android:name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT" />
+	<uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT" />
+	<application android:label="DeviceApplication.Android">
+    <provider android:name="android.support.v4.content.FileProvider"
+          android:authorities="${applicationId}.fileprovider"
+          android:exported="false"
+          android:grantUriPermissions="true">
+
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                       android:resource="@xml/file_paths"></meta-data>
+    </provider>
+  </application>
+</manifest>

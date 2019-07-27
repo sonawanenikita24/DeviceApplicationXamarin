@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceApplication.View.EmailSend">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Email"/>
+            <Entry x:Name="txtTo" Placeholder="someone@example.com" Text="To"></Entry>
+            <Entry x:Name="txtSubject" Placeholder="Subject" Text="Subject"></Entry>
+            <Editor x:Name="txtBody" HeightRequest="50" Text="Body"></Editor>
+            <Button x:Name="btnSend" Text="Send Mail" Clicked="Button_Send_Clicked"/>
+                </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

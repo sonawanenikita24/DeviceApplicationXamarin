@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceApplication.View.XamForBrowser">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontAttributes="Bold" Text="Open Browser" VerticalOptions="Center" HorizontalOptions="Start" />
+            <Entry x:Name="entURL" Placeholder="Enter url to open here"></Entry>
+            <Button x:Name="btnbroswe" Text="Click to browse" Clicked="Clicked_browse"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

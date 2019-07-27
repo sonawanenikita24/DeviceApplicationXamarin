@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceApplication.View.XamVersionTracking">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontAttributes="Bold" Text="Version Tracking " VerticalOptions="Center" HorizontalOptions="Start" />
+                <Label HorizontalOptions="Start" x:Name="lable_firstLaunch"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_firstLaunchCurrent"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_firstLaunchBuild"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_currentVersion"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_currentBuild"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_previousVersion"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_previousBuild"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_firstVersion"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_firstBuild"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_versionHistory"></Label>
+                <Label HorizontalOptions="Start" x:Name="lable_buildHistory"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

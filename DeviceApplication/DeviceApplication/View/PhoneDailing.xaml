@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceApplication.View.PhoneDailing">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontAttributes="Bold" Text="Phone Dialer" VerticalOptions="Center" HorizontalOptions="Start" />
+            <Entry x:Name="txtNumber" Placeholder="Enter Number"></Entry>
+            <Button x:Name="btnCall" Text="Call" Clicked="Call_Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceApplication.View.MasterPage" MasterBehavior="Popover">
+    <MasterDetailPage.Master>
+        <ContentPage>
+            <StackLayout Orientation="Vertical">
+                <Button Text="About Phone" Clicked="Device_info_button_clicked"/>
+                <Button Text="Android" />
+                <Button Text="UWP" />
+                <Button Text="IOS" />
+                <Button Text="WinStore" />
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

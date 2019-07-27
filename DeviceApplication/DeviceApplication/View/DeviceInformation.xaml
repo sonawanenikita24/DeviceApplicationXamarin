@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceApplication.View.DeviceInformation">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10">
+            <Label FontAttributes="Bold" Text="Getting Device information" VerticalOptions="Center" HorizontalOptions="Start" />
+            <Label HorizontalOptions="Start" x:Name="lblDevName"></Label>
+            <Label HorizontalOptions="Start" x:Name="lblDevType"></Label>
+            <Label HorizontalOptions="Start" x:Name="lblPlt"></Label>
+            <Label HorizontalOptions="Start" x:Name="lblIdiom"></Label>
+            <Label HorizontalOptions="Start" x:Name="lblMdl"></Label>
+            <Label HorizontalOptions="Start" x:Name="lblMfg"></Label>
+            <Label HorizontalOptions="Start" x:Name="lblVer"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

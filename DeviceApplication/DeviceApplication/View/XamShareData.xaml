@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeviceApplication.View.XamShareData">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontAttributes="Bold" Text="Share" VerticalOptions="Center" HorizontalOptions="Start" />
+            <Entry x:Name="txtText" Placeholder="Type something"></Entry>
+            <Entry x:Name="txtURL" Placeholder="Type url"></Entry>
+            <Button x:Name="btnShare" Text="share Text" Clicked="Btnshare_clicked"/>
+            <Button x:Name="btnShareUrl" Text="Share Url" Clicked="Btnshareurl_clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
